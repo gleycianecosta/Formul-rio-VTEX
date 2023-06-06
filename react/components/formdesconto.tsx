@@ -9,6 +9,7 @@ function formdesconto() {
      // e.preventDefault(),
       sendmasterDataprecadastro(e)
   }
+  
   const sendmasterDataprecadastro = (e: any) => {
     let raw = JSON.stringify({
       city: e.target.city.value,
@@ -26,8 +27,8 @@ function formdesconto() {
     var requestOptions = {
       method: 'POST',
       headers: {
-        "X-VTEX-API-AppToken": "EONDPWRJPJAVCTNFGKNZHIVCOCQDERZNPJLUKZUFZMWHOYRVGDGRTWOMJVJCGWWNMUQALCKHUCLRMAMYBKMTJOUXDDLRBJEOWTWMWPXCVAWBGXRXXOGIWFZMUPKSTJTV",
-        "X-VTEX-API-AppKey": "vtexappkey-basedeapoio-HVJIUR",
+        "X-VTEX-API-AppToken": "SEU_TOKEN",
+        "X-VTEX-API-AppKey": "SUA_CHAVE",
         "Accept": "application/json",
         "Content-Type": "application/json"
 
